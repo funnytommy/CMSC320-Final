@@ -4,6 +4,7 @@ body {
   }
 
   #playButton {
+    margin-top: 350px;
     width: 400px;
     height: 80px;
     border-width: 2px;
@@ -14,7 +15,21 @@ body {
     color: white;
   }
 
-  
+  #gamePlayer {
+    margin-top: 1000px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    border-collapse: separate; 
+    perspective: 1px;
+    z-index: 1;
+    background-color:white;
+    overflow: hidden;
+  }
+
+
   
   
   
