@@ -4,7 +4,6 @@ body {
   }
 
   #playButton {
-    /* margin-top: 350px; */
     position: fixed;
     width: 400px;
     height: 80px;
@@ -17,7 +16,6 @@ body {
   }
 
   #gamePlayer {
-    /* margin-top: 1000px; */
     position: fixed;
     transform: translateY(500px);
     border-style: solid;
