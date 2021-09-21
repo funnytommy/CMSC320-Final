@@ -25,10 +25,7 @@ body {
 
   .gp_landscape {
     position: fixed;
-    transform: translateY(85vh);
-    border-style: solid;
-    border-width: 1px;
-    border-color: blueviolet;
+    transform: translateY(95vh);
     height: 70vh;
     width: 60vw;
     background-color:white;
@@ -36,10 +33,7 @@ body {
 
   .gp_portrait {
     position: fixed;
-    transform: translateY(85vh);
-    border-style: solid;
-    border-width: 1px;
-    border-color: blueviolet;
+    transform: translateY(95vh);
     height: 50vh;
     width: 80vw;
     background-color:white;
@@ -55,8 +49,6 @@ body {
     animation-name: slideinbox;
   }
 
-
-
   .stayUp {
     transform: translateY(-53.5vh);
   }
@@ -64,6 +56,21 @@ body {
   .stayUpBox {
     transform: translateY(0px);
   }
+
+  #headingText {
+    font-size: 4vw;
+    transform: translateY(-6vw);
+    font-family: "Lucida Console", Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+  }
+
+
+
+
+
+  /*
+    Space for animations
+  */
   
   @keyframes slidein {
     from {
