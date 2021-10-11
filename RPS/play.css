@@ -59,7 +59,7 @@ body {
 
   #headingText {
     font-size: 4vw;
-    transform: translateY(-6vw);
+    transform: translateY(-30vw);
     font-family: "Lucida Console", Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
   }
