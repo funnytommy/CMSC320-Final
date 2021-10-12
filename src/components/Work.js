@@ -13,7 +13,7 @@ const Work = () => {
             <h1>Best work</h1>
           </Fade>
 
-          <div className="grid" alignItems="center">
+          <div className="grid" >
             <Fade bottom cascade>
               {data.projects.map((project, index) => (
                 <Card
