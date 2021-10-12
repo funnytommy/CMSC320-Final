@@ -1762,19 +1762,21 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 48px;
+			width: 36px;
 			/* height: 48px; */
 			background: #f00;
 		}
 
 			.image.avatar48 img {
-				width: 48px;
+				width: 36px;
 				/* height: 48px; */
 			}
 
 		.image.fit {
-			display: block;
-			width: 100%;
+			align-items: center;
+			justify-content: center;
+			/* display: flex; */
+			width: 80%;
 		}
 
 		.image.featured {
@@ -2062,7 +2064,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 375px;
+		width: 300px;
 	}
 
 		#header .top {
@@ -2244,7 +2246,7 @@ input, select, textarea {
 				} */
 
 				mark {
-					background-color: #8ebebca2;
+					/* background-color: #8ebebca2; */
 					color: #222629;
 				}
 
