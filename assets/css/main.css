@@ -2231,6 +2231,16 @@ input, select, textarea {
 					border-color: inherit;
 				}
 
+				/* .green-bg {
+					
+					background-color: #8ebebc;
+				} */
+
+				mark {
+					background-color: #8ebebca2;
+					color: #222629;
+				}
+
 				#main > section.dark a {
 					color: #fff;
 					border-color: inherit;
@@ -2248,7 +2258,7 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/Mckledin.png");
 			}
 
 			#main > section.two {
@@ -2262,6 +2272,10 @@ input, select, textarea {
 			#main > section.four {
 				background-color: #e8edec;
 			}
+
+			/* .title-text {
+				color:wheat;
+			} */
 
 /* Wide */
 
