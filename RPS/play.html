@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <!-- Required tags for bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom CSS file -->
+    <!-- Changed the file. -->
+    <link href="./play.css" rel="stylesheet">
+    <title>
+        Play Rock Papers and Scissors
+    </title>
+</head>
+
+<body class="d-flex justify-content-center align-items-center">
+    <button id="playButton" type="button"
+        class="pb_landscape btn btn-outline-info btn-lg d-flex justify-self-center justify-content-center align-items-center">Click
+        to
+        Play</button>
+    <div id="gamePlayer" class="gp_landscape d-flex justify-content-center flex-column">
+        <p id="headingText" class="">Play Rock Papers and Scissors</p>
+
+        <div id="displayBlock" class="d-flex">
+            <div id="opponentScore">0</div>
+            <div id=yourScore>0</div>
+
+        </div>
+
+    </div>
+
+    <!-- Nothing (except bootstrap JS file) should be present after this line. -->
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <script src="./play.js"></script>
+</body>
+
+</html>
